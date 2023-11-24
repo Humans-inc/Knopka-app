@@ -22,17 +22,9 @@ const VideoList = ({ list }) => {
             key={index}
             {...item}
             onClick={getId}
-            tgId={tg.initDataUnsafe.user.id}
+            // tgId={tg.initDataUnsafe.user.id}
           />
         ))}
-      <a
-        className="video-link"
-        href="https://docs.google.com/forms/d/115vp-O4T-nFCj4uylPb-kTvrBERKxDZwe4uLSU2mLRA/edit">
-        <div className="video-link__title">Доступ в MPSTATS</div>
-        <div className="video-link__descr">
-          Анкета для получения бесплатного доступа
-        </div>
-      </a>
       <Popup id={idVideo} visible={openPopup} setVisible={setOpenPopup} />
     </div>
   );

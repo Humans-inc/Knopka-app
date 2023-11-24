@@ -1,37 +1,27 @@
 .user-content {
-  background: #212322;
+  background: #ffffff;
   padding: 24px;
-  padding-top: 37px;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 
   &__header {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    margin-bottom: 41px;
+    justify-content: flex-start;
+    gap: 16px;
+    margin-bottom: 40px;
   }
 
   &__title {
-    color: #f3bc55;
-    font-family: Oswald;
-    font-size: 40px;
+    font-family: var(--font-family-primary);
+    color: #373737;
+    font-size: 32px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
-  }
-
-  &__author {
-    color: #fff;
-    font-family: Oswald;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.12px;
-    text-transform: uppercase;
-    max-width: 54px;
-    margin-left: auto;
+    line-height: 110%; /* 35.2px */
+    letter-spacing: 0.32px;
+    text-align: center;    
   }
 }

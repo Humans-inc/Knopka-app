@@ -50,8 +50,12 @@ const UserContent = () => {
   return (
     <div className="user-content">
       <div className="user-content__header">
-        <div className="user-content__title">ПРОДАНО</div>
-        <div className="user-content__author">Павел Шевченко</div>
+        <div className="user-content__logo">
+          <img src="/src/assets/vector.svg" alt="" width="125" />
+        </div>
+        <div className="user-content__title">
+          Продвижение карточки товара на&nbsp;Wildberries
+        </div>
       </div>
       <VideoList list={list} />
     </div>
