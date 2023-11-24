@@ -5,46 +5,29 @@ import VideoList from '../VideoList/VideoList';
 const UserContent = () => {
   const list = [
     {
-      id: 'myYDt7JTSWw',
-      title: 'Бизнес на маркетплейсах',
-      description: 'Глава 1. Будем знакомы!',
-      number: '1',
+      id: 'lVJbEYSA-MI',
+      title: 'Алгоритмы ВБ',
+      description: 'Урок 1',
     },
     {
-      id: '2X5soNUUdqc',
-      title: 'Инвестиции',
-      description: 'Глава 3. Как стать селлером',
-      number: '3',
+      id: 'rSQlJ0vaNus',
+      title: 'Самодиагностика карточки',
+      description: 'Урок 2',
     },
     {
-      id: 'BgwOAYj1nq0',
-      title: 'Кабинет WB',
-      description: 'Глава 4. На старт. Внимание. Продано!',
-      number: '4',
+      id: 'WtQi1FWvl7k',
+      title: 'Почему не работает твоя реклама',
+      description: 'Урок 3',
     },
     {
-      id: 'J4BnZurn_BE',
-      title: 'Как выбрать товар',
-      description: 'Глава 5. Как подготовиться к продажам',
-      number: '5',
+      id: 'pwJ2L-qE_J8',
+      title: 'Почему одного инструмента продвижения больше не достаточно?',
+      description: 'Урок 4',
     },
     {
-      id: '-avncddH7Yk',
-      title: 'Создание карточки',
-      description: 'Глава 6. Создание карточки товара',
-      number: '6',
-    },
-    {
-      id: 'r40RENZPpSo',
-      title: 'Личный бренд',
-      description: 'Глава 7. Продвижение товара',
-      number: '7',
-    },
-    {
-      id: 'epGm3zIkM3M',
-      title: 'Влияние окружения',
-      description: 'Глава 8. Сила окружения',
-      number: '8',
+      id: 'GcjgrM0fyj4',
+      title: 'Что может обнулить все твои усилия по продвижению товара на WB?',
+      description: 'Урок 5',
     },
   ];
   return (
