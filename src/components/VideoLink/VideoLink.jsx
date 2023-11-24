@@ -1,7 +1,6 @@
 import './VideoLink.scss';
 
-const VideoLink = ({ id, title, description, onClick, tgId }) => {
-
+const VideoLink = ({ id, title, description, onClick }) => {
   return (
     <div
       className="video-link"
