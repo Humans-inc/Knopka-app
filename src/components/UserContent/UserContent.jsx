@@ -34,7 +34,7 @@ const UserContent = () => {
     <div className="user-content">
       <div className="user-content__header">
         <div className="user-content__logo">
-          <img src="/assets/vector.svg" alt="" width="125" />
+          <img src="/images/vector.svg" alt="" width="125" />
         </div>
         <div className="user-content__title">
           Продвижение карточки товара на&nbsp;Wildberries
